@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcf814;
+    margin:0;
+    padding: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form{
+    width: 1200px;
+    background-color: #ffffff;
+    text-align: left;
+    box-sizing: content-box;
+    padding: 80px;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fcf814;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form {
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #21fd0d;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+
+ .input-group i {
+     position:absolute;
+     right:10px;
+     top:35px;
+     visibility: hidden;
+ }
+
+
+ .success i.fa-check-circle{
+     visibility: visible;
+     color:green;
+ }
+
+ .error i.fa-exclamation-circle {
+    visibility: visible;
+    color:red;
+}
+
+
+ .input-group p {
+     font-size: 15px;
+     color:red;
+     visibility: hidden;
+ }
+
+ .error p {
+     visibility: visible;
+ }
+
+    .btn {
+        width: 300px;
+        margin: 0 auto; 
+        
+            float: right;
+ }
+
+
+
+
+
+
+
+
+
+
